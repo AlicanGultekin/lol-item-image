@@ -1,6 +1,6 @@
 {
   "name": "lol-item-image",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Parses image URLs of items in League of Legends",
   "main": "index.js",
   "scripts": {
