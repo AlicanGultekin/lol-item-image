@@ -1,4 +1,4 @@
-# League of Legends Item Image Parser
+# League of Legends Item Image URL Parser
 
 :trophy:
 
