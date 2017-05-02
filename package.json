@@ -1,0 +1,42 @@
+{
+  "name": "lol-item-image",
+  "version": "1.0.1",
+  "description": "Parses image URLs of items in League of Legends",
+  "main": "index.js",
+  "scripts": {
+    "start": "node . -s",
+    "postinstall": "echo Don't forget to configure your Riot API key!",
+    "test": "echo These are not the droids you're looking for."
+  },
+  "readme": "readme.md",
+  "keywords": [
+    "riot",
+    "games",
+    "api",
+    "item",
+    "images"
+  ],
+  "author": {
+    "name": "Alican Gultekin",
+    "email": "alican@watchme.lol",
+    "url": "https://alicangultek.in"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vitaefinis/lol-item-image.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vitaefinis/lol-item-image/issues"
+  },
+  "homepage": "https://github.com/vitaefinis/lol-item-image#README",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "command-line-args": "^4.0.3",
+    "express": "^4.15.2",
+    "jsonpath": "^0.2.11",
+    "node-cache": "^4.1.1",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.0"
+  }
+}
