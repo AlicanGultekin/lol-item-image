@@ -19,7 +19,7 @@ const requireParam = parameterName => { throw new Error(`Missing parameter: ${pa
  * @returns {Object}
  */
 const convertJsonToLowerCase = json => {
-    return JSON.parse(JSON.stringify(json, function(key, value) {
+    return JSON.parse(JSON.stringify(json, (key, value) => {
         return typeof value === "string" ? value.toLowerCase() : value
     }));
 }
