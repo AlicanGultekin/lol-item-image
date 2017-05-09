@@ -13,7 +13,7 @@ const utils = require('./utils');
 const requireParam = utils.requireParam;
 const removeTrailingSlash = utils.removeTrailingSlash;
 
-const dataDragonUrl = removeTrailingSlash(config.dataDragonUrl) || 'http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item';
+const dataDragonUrl = removeTrailingSlash(config.dataDragonUrl) || 'http://ddragon.leagueoflegends.com/cdn/7.9.2/img/item';
 
 /**
  * Retrieves item image URL.
